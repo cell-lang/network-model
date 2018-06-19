@@ -1,0 +1,179 @@
+<!-- transform", "scale(2.0)" -->
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+
+  <marker
+    id="left-arrow-endpoint"
+    refY="50" refX="50"
+    markerHeight="5" markerWidth="5"
+    viewBox="0 0 100 100" se_type="leftarrow" orient="auto" markerUnits="strokeWidth">
+   <path stroke-width="10" stroke="#59667f" fill="#59667f" d="m0,50l100,40l-30,-40l30,-40z"/>
+  </marker>
+
+  <marker
+    id="right-arrow-endpoint"
+    refY="50" refX="50"
+    markerHeight="5" markerWidth="5"
+    viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="10" stroke="#80a0a0" fill="#59667f" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+
+ </defs>
+
+ <g>
+  <title>Layer 1</title>
+
+  <text
+    xml:space="preserve"
+    text-anchor="middle"
+    font-family="sans-serif" font-size="28"
+    x="400" y="68"
+    fill="#304040">Server</text>
+  <rect
+    x="320" y="80" width="160" height="396"
+    ry="20" rx="20"
+    stroke-linecap="null" stroke-linejoin="round" stroke-width="2" stroke="#304040"
+    fill-opacity="0"
+  />
+
+  <rect
+    x="360" y="100" width="80" height="60"
+    ry="10" rx="10"
+    stroke-linecap="null" stroke-linejoin="round" stroke-width="2" stroke="#304040"
+    fill-opacity="0"
+  />
+  <text
+    xml:space="preserve"
+    text-anchor="middle"
+    font-family="sans-serif" font-size="36"
+    x="400" y="144"
+    fill="#304040">H</text>
+
+
+  <rect
+    x="360" y="200" width="80" height="60"
+    ry="10" rx="10"
+    stroke-linecap="null" stroke-linejoin="round" stroke-width="2" stroke="#304040"
+    fill-opacity="0"
+  />
+  <text
+    xml:space="preserve"
+    text-anchor="middle"
+    font-family="sans-serif" font-size="36"
+    x="400" y="244"
+    fill="#304040">S</text>
+
+  <circle cx="400" cy="330" r="30" stroke="black" stroke-dasharray="10, 5" stroke-width="2" fill-opacity="0"/>
+  <text
+    xml:space="preserve"
+    text-anchor="middle"
+    font-family="sans-serif" font-size="36"
+    x="400" y="342"
+    fill="#304040">Q</text>
+
+  <circle cx="400" cy="430" r="30" stroke="black" stroke-dasharray="10, 5" stroke-width="2" fill-opacity="0"/>
+  <text
+    xml:space="preserve"
+    text-anchor="middle"
+    font-family="sans-serif" font-size="36"
+    x="400" y="442"
+    fill="#304040">R</text>
+
+
+
+
+
+
+
+
+
+
+
+  <text
+    xml:space="preserve"
+    text-anchor="middle"
+    font-family="sans-serif" font-size="28"
+    x="100" y="68"
+    fill="#304040">Client</text>
+  <rect
+    x="20" y="80" width="160" height="396"
+    ry="20" rx="20"
+    stroke-linecap="null" stroke-linejoin="round" stroke-width="2" stroke="#304040"
+    fill-opacity="0"
+  />
+
+  <rect
+    x="60" y="100" width="80" height="60"
+    ry="10" rx="10"
+    stroke-linecap="null" stroke-linejoin="round" stroke-width="2" stroke="#304040"
+    fill-opacity="0"
+  />
+  <text
+    xml:space="preserve"
+    text-anchor="middle"
+    font-family="sans-serif" font-size="36"
+    x="100" y="144"
+    fill="#304040">H</text>
+
+
+  <rect
+    x="60" y="200" width="80" height="60"
+    ry="10" rx="10"
+    stroke-linecap="null" stroke-linejoin="round" stroke-width="2" stroke="#304040"
+    fill-opacity="0"
+  />
+  <text
+    xml:space="preserve"
+    text-anchor="middle"
+    font-family="sans-serif" font-size="36"
+    x="100" y="244"
+    fill="#304040">L</text>
+
+  <circle cx="100" cy="330" r="30" stroke="black" stroke-width="2" fill-opacity="0"/>
+  <text
+    xml:space="preserve"
+    text-anchor="middle"
+    font-family="sans-serif" font-size="36"
+    x="100" y="342"
+    fill="#304040">Q</text>
+
+  <circle cx="100" cy="430" r="30" stroke="black" stroke-width="2" fill-opacity="0"/>
+  <text
+    xml:space="preserve"
+    text-anchor="middle"
+    font-family="sans-serif" font-size="36"
+    x="100" y="442"
+    fill="#304040">R&#770;</text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <path
+    marker-end="url(#right-arrow-endpoint)"
+    d="M 132 330 H 364"
+    stroke-linecap="null" stroke-linejoin="round" stroke-dasharray="10, 5" stroke-width="2" stroke="#808080"
+    fill-opacity="0"/>
+
+  <path
+    marker-end="url(#right-arrow-endpoint)"
+    d="M 368 430 H 136"
+    stroke-linecap="null" stroke-linejoin="round" stroke-dasharray="10, 5" stroke-width="2" stroke="#808080"
+    fill-opacity="0"/>
+
+  <path
+    marker-start="url(#left-arrow-endpoint)" marker-end="url(#right-arrow-endpoint)"
+    d="M 146 130 H 354"
+    stroke-linecap="null" stroke-linejoin="round" stroke-dasharray="10, 5" stroke-width="2" stroke="#808080"
+    fill-opacity="0"/>
+ </g>
+</svg>
